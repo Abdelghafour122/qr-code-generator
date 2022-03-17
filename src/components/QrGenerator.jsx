@@ -41,10 +41,10 @@ const QrGenerator = () => {
             }}
           >
             <Box
-              component="div"
+              component="h1"
               sx={{
                 fontSize: "18px",
-                marginBottom: "20px",
+                margin: "0 0 20px",
                 color: "text.main",
                 fontWeight: "700",
                 textAlign: "center",
