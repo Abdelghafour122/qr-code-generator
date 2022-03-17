@@ -4,7 +4,7 @@ import { Box } from "@mui/material";
 
 function App() {
   return (
-    <Box component="div" className="App" sx={{}}>
+    <Box component="main" className="App" sx={{ width: "100%" }}>
       <QrGenerator />
     </Box>
   );

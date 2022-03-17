@@ -17,6 +17,14 @@ body {
   margin: 0;
   background-color: var(--light-gray);
   font-family: "Outfit", "arial";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
 }
 
 .generator {

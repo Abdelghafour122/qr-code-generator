@@ -29,7 +29,7 @@ const QrCard = ({ onFin }) => {
         <Box component="h3">
           {onFin === qrc
             ? "Improve your front-end skills by building projects"
-            : "This is the reulting QR Code"}
+            : "This is the resulting QR Code"}
         </Box>
         <Box component="p" sx={{ color: "text.pColor" }}>
           {onFin === qrc

@@ -22,7 +22,7 @@ const QrGenerator = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-around",
-          margin: "150px auto",
+          // margin: "150px auto",
           flexDirection: { xs: "column", lg: "row" },
         }}
       >
