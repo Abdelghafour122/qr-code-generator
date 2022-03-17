@@ -72,8 +72,8 @@ const QrGenerator = () => {
                 width: "fit-content",
               }}
               onClick={() => {
-                textTogen
-                  ? generateQr(textTogen.trim())
+                textTogen.trim()
+                  ? generateQr(textTogen)
                   : alert("Please write something");
               }}
             >

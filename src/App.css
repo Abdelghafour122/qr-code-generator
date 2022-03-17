@@ -30,3 +30,14 @@ body {
 .generator {
   font-family: inherit;
 }
+
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: royalblue;
+  text-decoration: underline;
+  font-size: 20px;
+}
