@@ -18,6 +18,7 @@ const QrCard = ({ onFin }) => {
           p: "1.25rem",
           width: "18.125rem",
           textAlign: "center",
+          boxShadow: "rgb(162, 179, 198) 0px 24px 42px -12px;",
         }}
       >
         <Box

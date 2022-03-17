@@ -38,6 +38,7 @@ const QrGenerator = () => {
               alignItems: "center",
               width: "25rem",
               marginBottom: { xs: "3.125rem", lg: "0" },
+              boxShadow: "rgb(162, 179, 198) 0px 24px 42px -12px;",
             }}
           >
             <Box
