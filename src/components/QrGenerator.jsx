@@ -22,7 +22,6 @@ const QrGenerator = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-around",
-          // margin: "150px auto",
           flexDirection: { xs: "column", lg: "row" },
         }}
       >
@@ -55,6 +54,7 @@ const QrGenerator = () => {
             </Box>
             <TextField
               label="Write something or drop a link"
+              role="search"
               required
               variant="filled"
               onChange={(e) => {
@@ -66,6 +66,7 @@ const QrGenerator = () => {
               endIcon={<ArrowForward />}
               variant="contained"
               disableElevation
+              role="button"
               sx={{
                 marginTop: "30px",
                 width: "fit-content",
