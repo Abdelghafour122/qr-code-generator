@@ -31,20 +31,20 @@ const QrGenerator = () => {
             sx={{
               color: "primary.main",
               bgcolor: "background.backWhite",
-              p: "30px",
-              borderRadius: "15px",
+              p: "2rem",
+              borderRadius: "1rem",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              width: "400px",
-              marginBottom: { xs: "50px", lg: "0" },
+              width: "25rem",
+              marginBottom: { xs: "3.125rem", lg: "0" },
             }}
           >
             <Box
               component="h1"
               sx={{
-                fontSize: "18px",
-                margin: "0 0 20px",
+                fontSize: "1.125rem",
+                margin: "0 0 1.25rem",
                 color: "text.main",
                 fontWeight: "700",
                 textAlign: "center",
@@ -68,7 +68,7 @@ const QrGenerator = () => {
               disableElevation
               role="button"
               sx={{
-                marginTop: "30px",
+                marginTop: "2rem",
                 width: "fit-content",
               }}
               onClick={() => {

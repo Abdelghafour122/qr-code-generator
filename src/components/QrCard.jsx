@@ -14,19 +14,20 @@ const QrCard = ({ onFin }) => {
           flexDirection: "column",
           alignItems: "center",
           bgcolor: "background.backWhite",
-          borderRadius: "15px",
-          p: "20px",
-          width: "290px",
+          borderRadius: "1rem",
+          p: "1.25rem",
+          width: "18.125rem",
           textAlign: "center",
         }}
       >
         <Box
           component="img"
           width="250px"
-          borderRadius={onFin === qrc ? "15px" : 0}
+          borderRadius={onFin === qrc ? "1rem" : 0}
           src={onFin}
+          alt="qrCode-result"
         ></Box>
-        <Box component="h3">
+        <Box component="h2" fontSize="1.3rem">
           {onFin === qrc
             ? "Improve your front-end skills by building projects"
             : "This is the resulting QR Code"}
